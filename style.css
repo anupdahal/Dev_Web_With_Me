@@ -1,0 +1,28 @@
+body{
+  background-color: burlywood;
+  scroll-behavior: smooth;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+}
+
+.html, .esewa, .vscode, .css, .htmlcss, .htmlcssjs, .js, .hosting{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  margin: 2em;
+  text-decoration: none;
+}
+
+.img{
+  /* padding: 0.1em; */
+  /* margin: 0.1em; */
+}
+
+.imgtext{
+  width: 100%;
+  text-decoration: none;
+  padding-left: 1em;
+  /* color: green; */
+}
