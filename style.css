@@ -24,7 +24,7 @@ body{
   flex-wrap: nowrap;
 }
 
-.html, .esewa, .vscode, .css, .htmlcss, .htmlcssjs, .js, .hosting{
+.html, .esewa, .vscode, .css, .htmlcss, .github, .htmlcssjs, .js, .hosting{
   background-color: rgb(255, 255, 255);
   display: flex;
   margin: 0.1em;
