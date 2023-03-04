@@ -27,9 +27,11 @@ body{
 .html, .esewa, .vscode, .css, .htmlcss, .htmlcssjs, .js, .hosting{
   background-color: rgb(255, 255, 255);
   display: flex;
-  margin: 2em;
+  margin: 0.1em;
   text-decoration: none;
   flex-wrap: wrap;
+  overflow: hidden;
+  object-fit: contain;
   justify-content: center;
 }
 
@@ -39,7 +41,9 @@ body{
   padding-left: 1em;
   /* color: green; */
 }
-.img{
+img{
   margin-top: 0.3em;
   overflow: hidden;
+  /* object-fit: contain; */
+  /* background-size: contain; */
 }
