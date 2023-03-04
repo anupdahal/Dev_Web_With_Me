@@ -1,11 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+/* justify-content: center; */
+flex-wrap: nowrap;
+}
+
 body{
   background-color: burlywood;
   scroll-behavior: smooth;
 }
 
 .container{
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: left;
+  flex-wrap: nowrap;
 }
 
 .html, .esewa, .vscode, .css, .htmlcss, .htmlcssjs, .js, .hosting{
@@ -13,11 +29,8 @@ flex-direction: column;
   display: flex;
   margin: 2em;
   text-decoration: none;
-}
-
-.img{
-  /* padding: 0.1em; */
-  /* margin: 0.1em; */
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .imgtext{
@@ -25,4 +38,7 @@ flex-direction: column;
   text-decoration: none;
   padding-left: 1em;
   /* color: green; */
+}
+.img{
+  margin-top: 0.3em;
 }
