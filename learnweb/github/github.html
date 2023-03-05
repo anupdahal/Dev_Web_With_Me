@@ -7,40 +7,196 @@
     <title>github</title>
 </head>
 <body>
-    
-  <h1>  <b>What is Git?</b> <br></h1>
-Git is a version control system used for tracking changes in computer files, making it a top-rated utility for programmers world-wide. Git can handle projects of any size.
+  <div style="display: flex; justify-content: center; align-items: center;"> <img src="/pics/github.png" alt="html"></div>
+   <h1 style="text-align: center; text-decoration: underline;">Basic introduction</h1> 
+  <h2>  <b>What is Git?</b> <br></h2>
+  Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 <br><br>
 Git is used to coordinate the workflow among project team members and track their progress over time. It also benefits both programmers and non-technical users by keeping track of their project files. Git allows multiple users to work together without disrupting each other’s work. 
 <br><br>
 Now that you've been introduced to Git, you have the foundation needed to understand what is GitHub better.
 <br><br>
-<h1><b>What is GitHub?</b> <br></h1>
-GitHub is a Git repository hosting service that provides a web-based graphical interface. It is the world’s largest coding community. Putting a code or a project into GitHub brings it increased, widespread exposure. Programmers can find source codes in many different languages and use the command-line interface, Git, to make and keep track of any changes.
+<h2><b>What is GitHub?</b> <br></h2>
+GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 <br><br>
 GitHub helps every team member work together on a project from any location while facilitating collaboration. You can also review previous versions created at an earlier point in time.
 <br><br>
 So now we know what Git and GitHub are. Time to gain a better understanding of the importance and relevance of what is GitHub by exploring its features.
 <br><br>
-<h1><b>What are GitHub’s Features?</b> <br></h1>
-1. Easy Project Management <br>
+<h2><b>What are GitHub’s Features?</b> <br></h2>
+<b>1. Easy Project Management</b> <br>
 GitHub is a place where project managers and developers come together to coordinate, track, and update their work so that projects are transparent and stay on schedule.
 <br><br>
-2. Increased Safety With Packages <br>
+<b>2. Increased Safety With Packages </b><br>
 Packages can be published privately, within the team, or publicly to the open-source community. The packages can be used or reused by downloading them from GitHub.
 <br><br>
-3. Effective Team Management <br>
+<b>3. Effective Team Management</b> <br>
 GitHub helps all the team members stay on the same page and organized. Moderation tools like Issue and Pull Request Locking help the team to focus on the code.
 <br><br>
-4. Improved Code Writing <br>
+<b>4. Improved Code Writing</b> <br>
 Pull requests help the organizations to review, develop, and propose new code. Team members can discuss any implementations and proposals through these before changing the source code.
 <br><br>
-5. Increased Code Safety <br>
+<b>5. Increased Code Safety</b> <br>
 GitHub uses dedicated tools to identify and analyze vulnerabilities to the code that other tools tend to miss. Development teams everywhere work together to secure the software supply chain, from start to finish.
 <br><br>
-6. Easy Code Hosting <br>
+<b>6. Easy Code Hosting </b><br>
 All the code and documentation are in one place. There are millions of repositories on GitHub, and each repository has its own tools to help you host and release code.
+<br>
+<br>
+<hr>
 
+<h1 style="text-align: center; text-decoration: underline;">Let's start the tutorial</h1> 
+<b>This tutorial teaches you GitHub essentials like repositories, branches commits, and pull requests. You'll create your own Hello World repository and learn GitHub's pull request workflow, a popular way to create and review code.</b>
+<br>
+<h3><b><u>In this quickstart guide, you will:</u></b></h3>
+<b>Create and use a repository<br></b>
+<b>Start and manage a new branch<br></b>
+<b>Make changes to a file and push them to GitHub as commits<br></b>
+<b>Open and merge a pull request<br></b>
+<br>
+<b>To complete this tutorial, you need a GitHub account and Internet access. You don't need to know how to code, use the command line, or install Git (the version control software that GitHub is built on). If you have a question about any of the expressions used in this guide, head on over to the glossary to find out more about our terminology.</b>
+<br>
+<h3>Creating a repository <br></h3>
+A repository is usually used to organize a single project. Repositories can contain folders and files, images, videos, spreadsheets, and data sets -- anything your project needs. Often, repositories include a README file, a file with information about your project. README files are written in the plain text Markdown language. You can use this cheat sheet to get started with Markdown syntax. GitHub lets you add a README file at the same time you create your new repository. GitHub also offers other common options such as a license file, but you do not have to select any of them now.
+<br>
+Your hello-world repository can be a place where you store ideas, resources, or even share and discuss things with others.
+<br>
+1. In the upper-right corner of any page, use the  drop-down menu, and select New repository. + Drop-down with option to create a new repository
+<br>
+
+
+2. In the Repository name box, enter hello-world.
+<br>
+
+
+3. In the Description box, write a short description.
+<br>
+
+
+4. Select Add a README file.
+<br>
+5. Select whether your repository will be Public or Private.
+<br>
+6. Click Create repository.
+<br>
+<img style=" border: 2px solid black;" src="/learnweb/github/photoused/hello-world-repo.webp" alt="" height="50%" width="50%">
+
+<h3><b>Create a hello world repository</b></h3>
+<br>
+<h3>Creating a branch<br></h3>
+Branching lets you have different versions of a repository at one time.
+<br>
+By default, your repository has one branch named main that is considered to be the definitive branch. You can create additional branches off of main in your repository. You can use branches to have different versions of a project at one time. This is helpful when you want to add new features to a project without changing the main source of code. The work done on different branches will not show up on the main branch until you merge it, which we will cover later in this guide. You can use branches to experiment and make edits before committing them to main.
+<br>
+When you create a branch off the main branch, you're making a copy, or snapshot, of main as it was at that point in time. If someone else made changes to the main branch while you were working on your branch, you could pull in those updates.<br>
+<br>
+This diagram shows:
+<br>
+The main branch<br>
+A new branch called feature<br>
+The journey that feature takes before it's merged into main
+branching diagram<br>
+<br>
+Have you ever saved different versions of a file? Something like:
+<br>
+story.txt<br>
+story-edit.txt<br>
+story-edit-reviewed.txt<br>
+Branches accomplish similar goals in GitHub repositories.
+<br><br>
+Here at GitHub, our developers, writers, and designers use branches for keeping bug fixes and feature work separate from our main (production) branch. When a change is ready, they merge their branch into main.
+<br>
+<h3>Create a branch<br></h3>
+Click the Code tab of your hello-world repository.
+<br>
+Above the file list, click the dropdown menu that says main.
+<br>
+Screenshot of the repository page. A dropdown menu, labeled with a branch icon and "main", is highlighted with an orange outline.
+<br>
+Type a branch name, readme-edits, into the text box.
+<br>
+Click Create branch: readme-edits from main.
+<br>
+Branch menu
+<br>
+Now you have two branches, main and readme-edits. Right now, they look exactly the same. Next you'll add changes to the new branch.
+<br>
+<h3><b>Making and committing changes</b></h3>
+<hr>
+When you created a new branch in the previous step, GitHub brought you to the code page for your new readme-edits branch, which is a copy of main.
+<br>
+You can make and save changes to the files in your repository. On GitHub, saved changes are called commits. Each commit has an associated commit message, which is a description explaining why a particular change was made. Commit messages capture the history of your changes so that other contributors can understand what you’ve done and why.<br>
+<br>
+Under the readme-edits branch you created, click the README.md file.
+<br>
+Click  to edit the file.
+<br>
+In the editor, write a bit about yourself. Try using different Markdown elements.
+<br>
+In the Commit changes box, write a commit message that describes your changes.
+<br>
+Click Commit changes.
+<br>
+Commit example
+<br>
+These changes will be made only to the README file on your readme-edits branch, so now this branch contains content that's different from main.
+<br>
+<h3><b>Opening a pull request</b><br></h3>
+<hr>
+Now that you have changes in a branch off of main, you can open a pull request.
+<br>
+Pull requests are the heart of collaboration on GitHub. When you open a pull request, you're proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in different colors.
+<br>
+As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.
+<br>
+By using GitHub's @mention feature in your pull request message, you can ask for feedback from specific people or teams, whether they're down the hall or 10 time zones away.
+<br>
+You can even open pull requests in your own repository and merge them yourself. It's a great way to learn the GitHub flow before working on larger projects.
+<br>
+Click the Pull requests tab of your hello-world repository.
+<br>
+Click New pull request
+<br>
+In the Example Comparisons box, select the branch you made, readme-edits, to compare with main (the original).
+<br>
+Look over your changes in the diffs on the Compare page, make sure they're what you want to submit.
+<br>
+diff example
+<br>
+Click Create pull request.
+<br>
+Give your pull request a title and write a brief description of your changes. You can include emojis and drag and drop images and gifs.
+<br>
+Optionally, to the right of your title and description, click the  next to Reviewers. Assignees, Labels, Projects, or Milestone to add any of these options to your pull request. You do not need to add any yet, but these options offer different ways to collaborate using pull requests. For more information, see "About pull requests."
+<br>
+Click Create pull request.
+<br><br>
+Your collaborators can now review your edits and make suggestions.
+<br>
+<h3>Merging your pull request<br></h3>
+<hr>
+In this final step, you will merge your readme-edits branch into the main branch. After you merge your pull request, the changes on your readme-edits branch will be incorporated into main.
+<br>
+Sometimes, a pull request may introduce changes to code that conflict with the existing code on main. If there are any conflicts, GitHub will alert you about the conflicting code and prevent merging until the conflicts are resolved. You can make a commit that resolves the conflicts or use comments in the pull request to discuss the conflicts with your team members.
+<br>
+In this walk-through, you should not have any conflicts, so you are ready to merge your branch into the main branch.<br>
+<br>
+Click Merge pull request to merge the changes into main.<br>
+Screen shot of merge button.<br>
+Click Confirm merge. You will receive a message that the request was successfully merged and the request was closed.<br>
+Click Delete branch. Now that your pull request is merged and your changes are on main, you can safely delete the readme-edits branch. If you want to make more changes to your project, you can always create a new branch and repeat this process.<br>
+<h3>Next steps<br></h3>
+<hr>
+By completing this tutorial, you've learned to create a project and make a pull request on GitHub.<br>
+<br>
+Here's what you accomplished in this tutorial:
+<br>
+1. Created an open source repository <br>
+2. Started and managed a new branch<br>
+3. Changed a file and committed those changes to GitHub<br>
+4. Opened and merged a pull request<br> <br>
+Take a look at your GitHub profile and you'll see your work reflected on your contribution graph.<br>
+<br>
 
 </body>
 </html>
